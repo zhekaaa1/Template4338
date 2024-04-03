@@ -19,7 +19,7 @@
         <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">Евгений, 18</Label>
         <Button Grid.Row="1" Grid.Column="0" Margin="5" Click="ImportExcel_ButtonCliked">Импорт Excel</Button>
         <Button Grid.Row="1" Grid.Column="1" Background="Lime" Margin="5" Click="ExportExcel_Click">Экспорт Excel</Button>
-        <Button Grid.Row="2" Grid.Column="0" Margin="5">Импорт JSON</Button>
-        <Button Grid.Row="2" Grid.Column="1" Background="Aquamarine" Margin="5">Экспорт JSON</Button>
+        <Button Grid.Row="2" Grid.Column="0" Margin="5" Click="ImportJSON_ButtonClicked">Импорт JSON</Button>
+        <Button Grid.Row="2" Grid.Column="1" Background="Aquamarine" Margin="5" Click="ExportToWord_Click">Экспорт Word</Button>
     </Grid>
 </Window>
